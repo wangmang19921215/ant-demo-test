@@ -1,0 +1,19 @@
+{
+  "name": "ant-demo",
+  "version": "1.0.0",
+  "description": "ant demo",
+  "main": "index.js",
+  "scripts": {
+    "server": "cd server && json-server db.json -w -p 3000",
+    "dev": "roadhog server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^4.9.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-router": "^3.2.0",
+    "react-router-dom": "^4.2.2"
+  }
+}
